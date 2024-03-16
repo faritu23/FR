@@ -4,7 +4,7 @@ int main()
 {
     int n,m;
     cin>>n>>m;
-    int a[n],b[m];
+    long long int a[n],b[m];
     for(int i=0;i<n;i++)
     {
         cin>>a[i];
@@ -16,24 +16,21 @@ int main()
     long long int l=0,r=0,ans=0,cur;
     while(l<n && r<m)
     {
-        cur=a[l];
         int count1=0,count2=0;
-        while(a[l]==cur && l<n)
-        {
+        cur=a[l];
+        while (a[l] == cur && l < n) {
             count1++;
             l++;
         }
-        while(cur>b[r] && r<m)
-        {
+        while (cur > b[r] && r < m) {
             r++;
         }
-        while(b[r]==cur && r<m)
-        {
+        while (b[r] == cur && r < m) {
             count2++;
             r++;
         }
-        ans+=(count1*count2*1LL);
+        ans += (1LL * count1 * count2);
     }
-    cout<<ans<<"\n";
+    cout<<ans<<'\n';
     return 0;
 }
