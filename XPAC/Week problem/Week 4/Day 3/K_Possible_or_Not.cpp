@@ -26,6 +26,7 @@ int main()
             if((a[i]&B)==B)
             count&=a[i];
         }
+        
         if(count==B)
         {
             cout<<"YES"<<endl;
