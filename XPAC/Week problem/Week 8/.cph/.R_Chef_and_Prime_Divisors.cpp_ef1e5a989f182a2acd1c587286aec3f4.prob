@@ -1,1 +1,0 @@
-{"name":"Local: R_Chef_and_Prime_Divisors","url":"d:\\Ritu\\FR\\XPAC\\Week problem\\Week 8\\R_Chef_and_Prime_Divisors.cpp","tests":[{"id":1717174941432,"input":"3\n120 75\n128 16\n7 8","output":"Yes\nYes\nNo"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Ritu\\FR\\XPAC\\Week problem\\Week 8\\R_Chef_and_Prime_Divisors.cpp","group":"local","local":true}
